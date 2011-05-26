@@ -1,0 +1,9 @@
+INSTALATION
+
+Copy theme to your ~/.themes or /usr/share/themes folder
+
+GNOME PANEL TWEAKS
+
+If you want panel looks like in screenshot you must set panel size to 24 pixel,and you may for better look to move menubar aplet 10-20 pixel from the edge.My recomendation for font is cure because it fit nice panelbar button,and it is fixed size.I put the cure font in theme archive,you only need to copy it to your ~/.fonts folder(create if you haven't it) and run in terminal fc-cache -fv.Then you go to System-Preferences-Appearance-Fonts and for application and window title font choose cure.Then you must remove icons from the menus, go to System-Preferences-Appearance-Interface and uncheck Show icons in menus.
+For beeter look of the toolbar you can here under Toolbar button labels from dropdown menu choose Icons only.
+The panel only looks nice if position is top or down,left and right position is ugly.If you don't like panel like this,you can simply comment include "panel.rc" line in gtkrc,and you will get ordinary look.  

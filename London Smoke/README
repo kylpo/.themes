@@ -1,0 +1,24 @@
+Londons Smoke by Padster/theRealPadster
+
+There are different variations included, with normal and small sized scrollbars, with and without steppers, and with the window buttons on the left and right.
+
+For the GTK:
+-s means with steppers
+-t means thin
+so -ts means thin with steppers
+and the one called just plain London Smoke is normal, without steppers
+
+For the Metacity:
+-right and -left are for the button sides
+
+You should now be able to install more than one at a time, but it will not have a full preview in the Appearance Preferences, you will have to hit "customize".
+
+Metacity themes included, but no Emerald themes due to it being glitchy and not working right.
+
+The icon theme recommended for use alongside is mistEEK, which can be found at:
+http://charleswight.deviantart.com/art/mistEEk-Icons-3-2-178835430
+
+Additional credits:
+Mockup originally created by Ceebeebg/Monkeymagico (http://gnome-look.org/content/show.php?action=content&content=136369)
+Technical and artistic help by Pobtott
+Name suggested by Pulicoti

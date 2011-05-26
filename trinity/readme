@@ -1,0 +1,19 @@
+this is basically two different themes mashed together .. 
+slimline and terminal envy for gtk 
+
+Im not shur how to make a install file just yet.. 
+when i figure out how to ill update it but till then
+
+to install just extract into ~/.themes/
+
+open menu / settings / xfce4 settings manager / appearance select the gtk-trinity theme 
+and then go to the window manager and select xfce4-trinity. 
+
+the buttons should be in be hide - maximize - title - close, the icons have a bit of a 
+odd spacing. if anything doesn't work let me know and ill try to fix it .. 
+
+
+thanks to the person who made slimline  <-- could n't find a link it this.. it came with xfce4 for maybe its default ? 
+and Brian Assaf for making terminal envy.
+http://gnome-look.org/content/show.php/Terminal+Envy?content=114171
+

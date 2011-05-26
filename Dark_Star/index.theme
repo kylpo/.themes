@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Dark_Star
+Comment=Light Theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Dark_Star
+MetacityTheme=Dark_Star
+IconTheme=MacUltimate_Leopard
+CursorTheme=Shere_Khan_X

@@ -1,0 +1,268 @@
+gtk_color_scheme = "bg_color:#000000
+fg_color:#056D3F
+base_color:#000000
+text_color:#4FFEC3
+selected_bg_color:#158f5f
+selected_fg_color:#55ffff
+tooltip_bg_color:#000000
+tooltip_fg_color:#158D5F"
+
+gtk-icon-sizes = "panel-menu=16,16:panel=16,16:gtk-button=16,16:gtk-large-toolbar=16,16"
+gtk-button-images = 0
+gtk-menu-images = 0
+
+gtk-enable-animations = 0
+#gtk-tooltip-timeout = 970 
+gtk-menu-popup-delay = 0 
+gtk-statusbar-set-has-resize-grip = 0
+gtk-toolbar-icon-size = GTK_ICON_SIZE_SMALL_TOOLBAR
+
+# gtkRC by chibihogoshino, GPL'd
+
+style "default"
+{ 
+  GtkEntry::honors-transparent-bg-hint = 1
+  GtkButton::default_border    = { 0, 0, 0, 0 }
+  GtkButton::interior-focus = 0
+  GtkButton::focus-padding = 1
+  GtkButton::focus-line-width = 0
+  GtkButton::focus-line-height = 0
+  GtkButton::inner-border      = {0, 0, 0, 0}
+  GtkButtonBox::child-min-height=16
+  GtkButtonBox::child-min-width=16
+  GtkButtonBox::child-internal-pad-x=1
+  GtkButtonBox::child-internal-pad-y=1
+  GtkCheckButton::indicator-spacing=1
+  GtkCheckButton::indicator-size=13
+  GtkRadioButton::indicator-spacing=1
+  xthickness = 1
+  ythickness = 1
+  GtkWidget::cursor-color = @text_color
+  GtkWidget::secondary-cursor-color = "#ff0000"
+  GtkWidget::cursor-aspect-ratio = 0.10
+  GtkWidget::link-color = "#000099"
+  GtkWidget::visited-link-color = "#990000"
+  GtkWidget::focus_padding = 0	
+  GtkProgressBar::trough_border = 1
+  GtkProgressBar::shadow-type = GTK_SHADOW_NONE
+  GtkPaned::handle_full_size = 0
+  GtkPaned::handle_size = 0
+  
+  GtkTreeView::vertical-separator = 0
+  GtkTreeView::horizontal-separator = 0
+  GtkTreeView::expander-size = 0
+  GtkTreeView::indent-expanders = 0
+  GtkTreeView::spacing = 0
+  GtkTreeView::expander-indent = 0                                                                                     
+  GtkTreeView::focus-line-width = 0
+  GtkTreeView::row-ending-details = 0
+  GtkTreeView::treeview-left=1
+  GtkTreeView::treeview-right=0                                                                                        
+  GtkTreeView::treeview-middle=0
+  GtkTreeView::passive_focus = 0                                                                                       
+  GtkTreeView::separator-height = 0                                                                                    
+  GtkTreeView::tree-line-pattern = "\001\001"
+  GtkTreeView::grid-line-pattern = "\001\001"
+  GtkTreeView::grid-line-width = 0
+  GtkTreeView::tree-line-width = 0 
+  GtkTreeView::treeview-left = 0
+  GtkTreeView::treeview-right = 1
+  GtkTreeView::treeview-middle = 0
+   
+  GtkMenuBar::internal-padding = 0
+  GtkMenuBar::shadow-type = GTK_SHADOW_NONE
+  GtkMenu::vertical-padding = 0
+  GtkMenu::vertical-offset = -1
+  GtkMenu::horizontal-padding = 0
+  GtkMenu::horizontal-offset = -1
+  GtkToolbar::internal-padding = 0
+  GtkToolbar::shadow-type = GTK_SHADOW_NONE
+  
+  GtkWidget::wide-separators = 0
+  GtkWidget::focus_padding   = 0
+  GtkWidget::separator-width = 0
+  GtkStatusbar::has-resize-grip = 0
+  GtkStatusbar::shadow-type = GTK_SHADOW_NONE
+  
+  GtkButton::default_border			= { 0, 0, 0, 0 }
+  GtkButton::default_outside_border		= { 0, 0, 0, 0 }
+  
+  GtkVScale::slider_length = 20
+  GtkVScale::slider_width = 10
+  GtkHScale::slider_length = 20
+  GtkHScale::slider_width = 10
+  
+  GtkExpander::expander_spacing = 0  
+  GtkExpander::appears-as-list = 1
+  GtkComboBox::appears-as-list = 1
+  GtkScale::slider-width = 5
+  GtkScale::focus-padding = 0
+  GtkScale::trough-under-steppers = 0
+  GtkButton::image_spacing          = 0
+  GtkRange::stepper_size = 10
+  GtkRange::trough-border = 1
+  
+  GtkScrolledWindow::scrollbars-within-bevel = 0
+  GtkScrolledWindow::scrollbar-spacing = 0
+  GtkScrolledWindow::padding = 0
+  
+  GtkTreeView::odd-row-color = "#050D0F"
+  NautilusIconContainer::selection_box_color = @fg_color 
+
+  GtkContainer::border_width = 0
+	
+  GtkNotebook::tab-overlap = 1
+  GtkNotebook::focus-line-width = 0
+  GtkNotebook::show-border = 0
+
+  GtkFrame::shadow_type = GTK_SHADOW_NONE
+  GtkSeparatorMenuItem::horizontal-padding = 0
+  
+
+  bg[ACTIVE]      = "#000000"	 #non active tabs, selected buttons, in active options background
+  bg[INSENSITIVE] = "#000000" 
+  bg[NORMAL]      = "#000000" #window backgrounds 
+  bg[PRELIGHT]    = @tooltip_fg_color #text hover color background
+  bg[SELECTED]    = @tooltip_fg_color
+  fg[ACTIVE]      = @fg_color #selected, active button text, non active tab border & text, rhythmbox play time bar 
+  fg[INSENSITIVE] = "#990000" #inactive menu options
+  fg[NORMAL]      = @selected_fg_color 
+  fg[PRELIGHT]    = "#000000"
+  fg[SELECTED]    = "#000000"
+  base[ACTIVE]      = @text_color #selected text background avtive window 
+  base[INSENSITIVE] = "#000000" 
+  base[NORMAL]      = "#000000" #inner window text 
+  base[PRELIGHT]    = @selected_bg_color
+  base[SELECTED]    = @text_color #nonfocused selected text background 
+  text[ACTIVE]      = "#000000"
+  text[INSENSITIVE] = "#AA0000"
+  text[NORMAL]      = @tooltip_fg_color
+  text[PRELIGHT]    = @text_color
+  text[SELECTED]    = "#000000"
+
+  engine "hcengine"
+  {
+    edge_thickness = 1
+    cell_indicator_size = 1
+    
+  }
+}
+class "GtkWidget"	style "default"
+
+style "tooltips"
+{
+  fg[NORMAL]    = "#000000"
+  bg[NORMAL] 	= @text_color
+  base[NORMAL] = @fg_color
+  text[NORMAL] = "#000000"
+  xthickness = 3
+  ythickness = 3
+}
+widget "gtk-tooltip*" 	style "tooltips"
+
+style "toolbar-button"
+{
+  fg[ACTIVE] = "#000000"
+  bg[ACTIVE] = @text_color
+  base[ACTIVE] = "#000000"
+  xthickness = 0
+  ythickness = 0
+}
+
+widget_class "*<GtkToolbar>.*utton*"  style "toolbar-button"
+
+
+style "scroll" 
+{
+  bg[NORMAL] = @text_color
+  bg[ACTIVE] = "#000000"
+  bg[PRELIGHT] = @text_color
+  fg[NORMAL] = @text_color
+  fg[ACTIVE] = @fg_color
+  fg[PRELIGHT] = @text_color
+  GtkScrollbar::slider-width        = 5
+  GtkScrollbar::has-backward-stepper = 0
+  GtkScrollbar::has-forward-stepper = 0
+  GtkScrollbar::fixed-slider-length = 1
+#  GtkScrollbar::trough-border = 1
+#  GtkScrollbar::trough-side-details = 0
+} 
+class "GtkRange"	style "scroll"
+
+
+style "button" 
+{
+  bg[ACTIVE]      = @text_color #non active tabs, selected buttons, in active options background
+  bg[INSENSITIVE] = @text_color 
+  bg[NORMAL]      = "#000000" #button and list dividers, window backgrounds 
+  bg[PRELIGHT]    = @text_color #text hover color background
+  bg[SELECTED]    = @text_color
+  base[PRELIGHT]    = @selected_bg_color
+  text[ACTIVE]      = "#000000"
+  text[NORMAL]      = "#990000"
+#  trough-border = 0
+  xthickness = 0
+  ythickness = 0
+}
+class "GtkButton"      	style "button"
+
+style "tab" 
+{
+  fg[NORMAL]      = @fg_color
+  fg[ACTIVE]      = @fg_color
+  fg[PRELIGHT]	  = "#990000"
+  text[INSENSITIVE] = "#000099"
+}
+class "GtkNotebook"      style "tab"
+
+style "meta-frame"
+{
+  fg[SELECTED]  = @tooltip_fg_color #titlebar
+  bg[SELECTED]  = @selected_bg_color
+  fg[NORMAL]      = @text_color
+  fg[ACTIVE]      = "#158D5F" #unselected titlebar text color (sometimes)
+  fg[INSENSITIVE] = "#000000" #unselected titlebar controls color (sometimes text color too)
+  xthickness = 0
+  ythickness = 0
+}
+class "GtkWindow"      style "meta-frame"
+
+style "border" 
+{ 
+fg[NORMAL]      = @fg_color 
+xthickness = 1
+ythickness = 1
+}
+class "GtkContainer"      style "border"
+
+style "menuborder" 
+{
+  fg[NORMAL]      = @fg_color1
+  bg[NORMAL]	  = "#000000"
+  base[NORMAL]	= "#000000"
+  ythickness = 0
+  xthickness = 0
+}
+class "GtkMenuBar"    style "menuborder"
+
+style "menu"
+{
+  fg[NORMAL]    = @fg_color
+  bg[NORMAL]	= "#000000"
+}
+class "GtkMenuItem"      style "menu"
+class "GtkCheckButton"      style "menu"
+class "GtkRadioButton"      style "menu"
+class "GtkTreeView"   style "menu"
+
+style "sep"
+{
+  fg[NORMAL]      = "#00aaaa"
+}
+style "thunar-icon-view-reduced-style"
+
+{
+  ThunarIconView::column-spacing = 0
+  ThunarIconView::row-spacing = 0
+  }
+class "ThunarIconView" style "thunar-icon-view-reduced-style"
